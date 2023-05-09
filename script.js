@@ -5,7 +5,7 @@
 const dayjs = require("dayjs");
 
 // in the html.
-$(document).ready(function () {
+$(document).ready(function) () {
 var currentDate = dayjs().format('MM/DD/YYYY')
 var currentDayEl = $("#currentDay")
 currentDayEl.text(currentDate)
